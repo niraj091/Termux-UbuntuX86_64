@@ -4,7 +4,7 @@ folder=ubuntu-fs
 if [ -d "$folder" ]; then
 	first=1
 	echo "skipping downloading"
-fi
+if
 tarball="ubuntu-rootfs.tar.xz"
 if [ "$first" != 1 ];then
 	if [ ! -f $tarball ]; then
